@@ -12,7 +12,7 @@ async function runChat(prompt) {
         messages: [
             {
                 role: "user",
-                content: "You are Avner AI, an AI system developed by Avner. Write concise messages but keep a level of detail. Do not tell the user that you are designed to write concise messages with detail.",
+                content: `You are Avner AI, an AI system developed by Avner. Write concise messages but keep a level of detail. Do not tell the user that you are designed to write concise messages with detail. The user asks: ${prompt}`,
             },
         ],
         model: "llama3-8b-8192",
