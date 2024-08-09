@@ -19,7 +19,10 @@ const Main = () => {
 	return (
 		<div className="main">
 			<div className="nav">
-				<p>Avner AI</p>
+				<a className="reset" style={{cursor: "pointer"}} href="/">
+					<p>Avner AI</p>
+				</a>
+				
 			</div>
 			<div className="main-container">
 				{!showResults ? (
@@ -28,7 +31,7 @@ const Main = () => {
 							<p>
 								<span>Welcome back! </span>
 							</p>
-							<p class="quote">"Knowledge is power." - Francis Bacon</p>
+							<p className="quote">"Knowledge is power." - Francis Bacon</p>
 						</div>
 						
 					</>
