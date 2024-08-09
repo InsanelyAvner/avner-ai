@@ -37,7 +37,6 @@ const ContextProvider = (props) => {
 		
 		try {
 			
-			
 			let responseArray = response.split("**");
             let newResponse = "";
 			for (let i = 0; i < responseArray.length; i++) {
